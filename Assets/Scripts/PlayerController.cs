@@ -72,7 +72,8 @@ public class PlayerController : MonoBehaviour {
 		countText.text = "Count: " + count.ToString ();
 
 		// Check if our 'count' is equal to or exceeded 12
-		if (count >= 12) 
+		// Lowered the amount of pickup materials needed to finish game from 12 to 8
+		if (count >= 8) 
 		{
 			// Set the text value of our 'winText'
 			winText.text = "You Win!";
